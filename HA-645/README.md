@@ -46,7 +46,7 @@ AWS EC2 Instance
 
 5. Now I installed the required package, like Apache (sudo apt install apache2 -y).
 
-6. To add my file, I felt the best way is to clone the files from my git repository (sudo git clone sudo git clone https://github.com/Nagavenkatasai7/AWS-645). So I cloned the website files from the GitHub repository.
+6. To add my file, I felt the best way is to clone the files from my git repository(cd /var/www/html/) (sudo git clone sudo git clone https://github.com/Nagavenkatasai7/AWS-645). So I cloned the website files from the GitHub repository.
 
 7. Now I configured the Apache to change the ownership (sudo chown -R www-data:www-data /var/www/html/). And restart the Apache. (sudo systemctl restart apache2)
 
